@@ -1,0 +1,15 @@
+2017-01-02T14:01:43.297069000 40.153419s notice: Recursively removing directory /Users/jjones/Documents/Angular2-Learning/rethinkdb-angular2-sample/rethinkdb_data/tmp
+2017-01-02T14:01:43.299328000 40.155682s notice: Initializing directory /Users/jjones/Documents/Angular2-Learning/rethinkdb-angular2-sample/rethinkdb_data
+2017-01-02T14:01:43.299454000 40.155802s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/jjones/Documents/Angular2-Learning/rethinkdb-angular2-sample/rethinkdb_data' did not already exist or is empty.)
+2017-01-02T14:01:43.299531000 40.155879s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-01-02T14:01:43.312592000 40.168907s notice: Running on Darwin 16.3.0 x86_64
+2017-01-02T14:01:43.312678000 40.168990s notice: Loading data from directory /Users/jjones/Documents/Angular2-Learning/rethinkdb-angular2-sample/rethinkdb_data
+2017-01-02T14:01:43.515601000 40.371913s info: Automatically using cache size of 375 MB
+2017-01-02T14:01:43.516690000 40.373002s notice: Listening for intracluster connections on port 29015
+2017-01-02T14:01:43.519181000 40.375493s notice: Listening for client driver connections on port 28015
+2017-01-02T14:01:43.519416000 40.375728s notice: Listening for administrative HTTP connections on port 8080
+2017-01-02T14:01:43.519435000 40.375747s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-01-02T14:01:43.519445000 40.375756s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-01-02T14:01:43.519448000 40.375759s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-01-02T14:01:43.519455000 40.375766s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-01-02T14:01:43.519461000 40.375773s notice: Server ready, "Jimmys_MacBook_Pro_local_fu6" a977c02d-52fd-4606-980e-130a73c5b7f7
