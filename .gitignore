@@ -1,5 +1,6 @@
 /__build__
 /__server_build__
+/rethinkdb_data
 /node_modules
 /typings
 /tsd_typings/

@@ -13,3 +13,12 @@
 2017-01-02T14:01:43.519448000 40.375759s notice: Listening on http addresses: 127.0.0.1, ::1
 2017-01-02T14:01:43.519455000 40.375766s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
 2017-01-02T14:01:43.519461000 40.375773s notice: Server ready, "Jimmys_MacBook_Pro_local_fu6" a977c02d-52fd-4606-980e-130a73c5b7f7
+2017-01-02T14:16:34.568144000 931.407838s info: Table 91229380-6527-44a1-a6d7-12d0300ee6fb: Starting a new Raft election for term 1.
+2017-01-02T14:16:34.571081000 931.410775s info: Table 91229380-6527-44a1-a6d7-12d0300ee6fb: Added replica on this server.
+2017-01-02T14:16:34.622588000 931.462282s info: Table 91229380-6527-44a1-a6d7-12d0300ee6fb: This server is Raft leader for term 1. Latest log index is 0.
+2017-01-02T14:16:41.805024000 938.644610s info: Table 8a10e36a-50cd-44f5-8e88-f4b00fde5113: Starting a new Raft election for term 1.
+2017-01-02T14:16:41.805264000 938.644849s info: Table 8a10e36a-50cd-44f5-8e88-f4b00fde5113: Added replica on this server.
+2017-01-02T14:16:41.865027000 938.704613s info: Table 8a10e36a-50cd-44f5-8e88-f4b00fde5113: This server is Raft leader for term 1. Latest log index is 0.
+2017-01-02T14:17:02.405024000 959.244215s info: Table bc0e79cb-4d64-47ec-ab83-a2e9e91034a4: Starting a new Raft election for term 1.
+2017-01-02T14:17:02.405247000 959.244437s info: Table bc0e79cb-4d64-47ec-ab83-a2e9e91034a4: Added replica on this server.
+2017-01-02T14:17:02.462312000 959.301503s info: Table bc0e79cb-4d64-47ec-ab83-a2e9e91034a4: This server is Raft leader for term 1. Latest log index is 0.
