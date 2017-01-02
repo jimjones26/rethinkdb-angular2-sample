@@ -20,6 +20,7 @@
     "@types/moment": "^2.13.0",
     "@types/morgan": "^1.7.32",
     "@types/node": "^6.0.45",
+    "@types/rethinkdb": "^2.3.1",
     "@types/sequelize": "^4.0.38",
     "http-server": "^0.9.0",
     "nodemon": "^1.11.0",
@@ -38,6 +39,7 @@
     "jwt-simple": "^0.5.1",
     "lodash": "^4.17.4",
     "moment": "^2.17.1",
-    "morgan": "^1.7.0"
+    "morgan": "^1.7.0",
+    "rethinkdb": "^2.3.3"
   }
 }
