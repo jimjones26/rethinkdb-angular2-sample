@@ -7,6 +7,6 @@ function rootRoute(req: Request, res: Response) {
 
 export function initRestApi(app: Application) {
   app.route('/').get(rootRoute);
-  app.route('/users').get(apiGetAllUsers);
+  app.route('/api/users').get(apiGetAllUsers);
 
 }
