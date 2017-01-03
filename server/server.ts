@@ -4,14 +4,9 @@ import * as logger from 'morgan';
 import * as bodyParser from 'body-parser';
 import * as cors from 'cors';
 import * as helmet from 'helmet';
-
-var r = require('rethinkdb');
-
 import { initRestApi } from "./api/api";
 import { apiErrorHandler } from "./api/apiErrorHandler";
 import { createConnection, closeConnection } from './library/rethink';
-
-require('dotenv').load();
 
 const app: Application = express();
 
