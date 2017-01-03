@@ -15,3 +15,6 @@ v8.log
 *.js.map
 /.vscode
 .env
+
+log_file
+metadata

@@ -7,6 +7,8 @@ function rootRoute(req: Request, res: Response) {
 
 export function initRestApi(app: Application) {
   app.route('/').get(rootRoute);
+
+  //app.route('/api/users/:id').get(apiGetUserById);
   app.route('/api/users').get(apiGetAllUsers);
 
 }
