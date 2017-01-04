@@ -2,7 +2,7 @@ import { Response, NextFunction } from 'express';
 
 export function onError(res: Response, message: string, err: any) {
   console.error("Promise chain error ", message, err);
-  res.status(500).send({error: 'oops, something went wrong...'});
+  res.status(500).send({ error: 'oops, something went wrong...' });
 }
 
 /*
@@ -10,6 +10,6 @@ export function onError(res: Response, message: string, err: any) {
  */
 export function handleError(res: Response, next: NextFunction) {
   return function (error: any) {
-    res.send(500, { error: error.message });
+    res.status(500).send({ error: error.message });
   }
 }

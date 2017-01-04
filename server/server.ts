@@ -47,7 +47,7 @@ r.connect(dbConfig, function (err: any, conn: any) {
   }).error(function (err: any) {
     // The database/table/index was not available, create them
     r.dbCreate(dbConfig.db).run(conn).finally(function () {
-      return r.tableCreate(usersTable).run(conn)
+      return r.tableCreate(usersTable, {primaryKey: 'email'}).run(conn)
     }).finally(function () {
       r.table(usersTable).indexCreate('createdAt').run(conn);
     }).finally(function (result: any) {
@@ -76,8 +76,3 @@ function startExpress() {
     console.log(serverString);
   });
 }
-
-
-
-
-
