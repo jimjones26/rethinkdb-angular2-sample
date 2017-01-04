@@ -6,7 +6,7 @@
   "scripts": {
     "start": "./node_modules/.bin/ts-node ./server/server.ts",
     "watch": "./node_modules/.bin/nodemon  -w . --ext \".ts\" --exec \"npm run start\"",
-    "run": "node ./__server_build__/server.js"
+    "run": "node ./__server_build__/server/server.js"
   },
   "devDependencies": {
     "@types/bcrypt": "^1.0.0",
